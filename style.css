@@ -70,9 +70,45 @@ li {
     width: 550px;
     height: auto;
     margin: 80px 80px 80px 250px;
+    border: none;
 }
 
 .gray-background {
     background-color: #1f2937;
     padding: 0px 280px;
+}
+
+.subheading {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    margin: 0px 20px;
+    width: 210px;
+}
+
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
+}
+
+.captions {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    text-align: center;
 }
