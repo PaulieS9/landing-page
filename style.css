@@ -1,0 +1,78 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.logo {
+    
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.top {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-wrap: wrap;
+    width: 340px;
+}
+
+.subtext {
+    text-wrap: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 12px 0px;
+    width: 600px
+}
+
+.sign-up {
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    width: 130px;
+    border-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.right {
+    width: 550px;
+    height: auto;
+    margin: 80px 80px 80px 250px;
+}
+
+.gray-background {
+    background-color: #1f2937;
+    padding: 0px 280px;
+}
