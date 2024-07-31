@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    text-wrap: nowrap;
 }
 
 .logo {
@@ -22,6 +23,7 @@ body {
 .links {
     display: flex;
     list-style: none;
+    width: 139px;
 }
 
 li {
@@ -111,4 +113,73 @@ img {
     justify-content: center;
     text-wrap: wrap;
     text-align: center;
+    margin: 16px 0px 70px;
+}
+
+.quote,
+.author {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote {
+    
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 100px 500px 10px;
+}
+
+.author {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: flex-end;
+    padding: 10px 520px 80px 500px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #3882f6;
+    margin: 75px 280px;
+    padding: 50px 5px;
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 200px;
+}
+
+.bold {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.final {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    width: 130px;
+    border-color: white;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px 0px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px;
+    color: white;
 }
